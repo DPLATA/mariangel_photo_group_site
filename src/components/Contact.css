@@ -1,0 +1,39 @@
+.contact {
+    background-color: #ffffff;
+    padding: 60px 20px;
+  }
+  
+  .contact h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-family: 'Aboreto', cursive;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info {
+    margin-bottom: 30px;
+  }
+  
+  .whatsapp-button {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    font-family: 'Aboreto', cursive;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .whatsapp-button:hover {
+    background-color: #128C7E;
+  }
+  
+  @media (max-width: 768px) {
+    .contact {
+      padding: 40px 20px;
+    }
+  }
