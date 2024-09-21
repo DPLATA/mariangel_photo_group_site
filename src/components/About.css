@@ -1,0 +1,39 @@
+.about {
+    padding: 4rem 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+
+  .about-text p {
+    font-family: 'Aboreto', cursive;
+  }
+  
+  .about-text blockquote {
+    font-family: 'Parisienne', cursive;
+    font-size: 1.8rem;
+    font-style: italic;
+    border-left: 4px solid #a67c52;
+    padding-left: 1rem;
+    margin: 1rem 0;
+    color: #a67c52;
+  }
+  
+  .about-text em {
+    font-family: 'Aboreto', cursive;
+    font-style: normal;
+    font-weight: bold;
+  }

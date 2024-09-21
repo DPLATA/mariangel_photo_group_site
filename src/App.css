@@ -1,0 +1,64 @@
+/* App.css */
+body {
+  font-family: 'Aboreto', cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+  line-height: 1.6;
+}
+
+.App {
+  text-align: center;
+}
+
+section {
+  padding: 60px 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Parisienne', cursive;
+  color: #a67c52;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 40px 10px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 0.9rem;
+  }
+}

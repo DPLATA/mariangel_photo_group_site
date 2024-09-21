@@ -1,0 +1,12 @@
+.footer {
+    font-family: 'Aboreto', cursive;
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .footer a {
+    color: #a67c52;
+    text-decoration: none;
+  }
