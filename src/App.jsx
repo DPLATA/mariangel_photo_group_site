@@ -5,11 +5,19 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import About from './components/About';
 import Testimonials from './components/Testimonials';
+import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
 
 const App = () => {
+  const galleryImages = [
+    'https://images-pw.pixieset.com/elementfield/681327243/_DSC2292-3cf8e48b-1000.JPG',
+    'https://images-pw.pixieset.com/elementfield/681327243/_DSC2369-2d01ad48-1000.JPG',
+    'https://images-pw.pixieset.com/elementfield/370527243/63632db7b69fbc3cad1fc8a8b5aa2e0d-712a319a-1000.jpg',
+    'https://images-pw.pixieset.com/elementfield/370527243/9e306f22b224f395923be30b7821a667-9264faaa-1000.jpg'
+    // ... add more image paths
+  ];
   const [activeSection, setActiveSection] = useState('');
 
   useEffect(() => {
@@ -42,6 +50,7 @@ const App = () => {
       <Navigation activeSection={activeSection} scrollToSection={scrollToSection} />
       <Hero />
       <Services />
+      <Gallery images={galleryImages} />
       <About />
       <Testimonials />
       <Contact />

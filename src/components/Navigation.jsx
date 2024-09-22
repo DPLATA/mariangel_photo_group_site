@@ -3,7 +3,7 @@ import './Navigation.css';
 import logoImage from '../../public/logo.png';
 
 const Navigation = ({ activeSection, scrollToSection }) => {
-  const navItems = ['home', 'services', 'about', 'testimonials', 'contact'];
+  const navItems = ['home', 'services', 'gallery', 'about', 'testimonials', 'contact'];
 
   return (
     <nav className="navigation">
